@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(244, 242, 222);
+    margin: 0px;
+    padding: 10px;
+}
+hr {
+    border-style: dotted none none none;
+    border-width: 5px;
+    border-color: rgb(233, 179, 132);
+    width: 5%;
+}
+p {
+    font-size: 0.8em;
+    color: rgb(161, 204, 209);
+    font-size: smaller;
+}
+.p1 {
+    margin-top: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1em;
+    font-weight: 300;
+    color: rgb(161, 204, 209);
+}
+h1 {
+    color: rgb(124, 157, 150);;
+    font-size: 2em;
+    /* color: rgb(244, 242, 222); */
+}
+h2 {
+    font-size: 1.75em;
+    color: rgb(124, 157, 150);
+}
+h3 {
+    font-size: 1.60em;
+    color: rgb(124, 157, 150);
+}
+h4 {
+    font-size: 1.40em;
+    color: rgb(124, 157, 150);
+}
+h5 {
+    font-size: 1.15em;
+    color: rgb(124, 157, 150);
+}
+h6 {
+    font-size: 1.05em;
+    color: rgb(124, 157, 150);
+}
+nav {
+    margin: 0;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(233, 179, 132);
+}
+nav ul{
+	float: center;
+    align-items: center;
+}
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+nav ul li a{
+	color: rgb(244, 242, 222);
+	font-size: 17px;
+	padding: 7px 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+a.active,a:hover{
+	background: rgb(124, 157, 150);
+	transition: .5s;
+}
+div {
+    border: 0px;
+    text-align: center;
+}
+.about {
+    float: center;
+    align-items: center;
+}
+.row{
+    margin: 0 10%;
+    float: center;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.col{
+    align-self: center;
+    align-content: center;
+    float: center;
+    margin: 5%;
+    padding: 25px;
+	flex-basis: 25%;
+	min-width: 100px;
+}
